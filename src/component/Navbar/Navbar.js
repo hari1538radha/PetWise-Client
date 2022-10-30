@@ -12,28 +12,52 @@ const Navbar = () => {
       </div>
       <div className="flex w-screen h-[140px] items-center">
         <div className="flex ml-[250px]">
-          <div>
+          <div className="hover:cursor-pointer">
             <img src={SearchLogo} alt="Search"></img>
           </div>
           <div>
             <ui className="ml-28">
-              <a className="w-[83px]  h-5 mr-10">Home</a>
-              <a className="w-[83px]  h-5 mr-10">Shop</a>
-              <a className="w-[83px] h-5 mr-10">Collections</a>
+              <a className="w-[83px]  h-5 mr-10 hover:text-red-500 hover:underline hover:cursor-pointer decoration-red-500 ">
+                Home
+              </a>
+              <a className="w-[83px]  h-5 mr-10  hover:text-red-500 hover:underline hover:cursor-pointer decoration-red-500">
+                Shop
+              </a>
+              <a className="w-[83px] h-5 mr-10  hover:text-red-500 hover:underline hover:cursor-pointer decoration-red-500">
+                Collections
+              </a>
             </ui>
           </div>
         </div>
         <div>
-          <img src={Logo} className="mr-9" alt="Logo"></img>
+          <img
+            src={Logo}
+            className="mr-9 hover:cursor-pointer"
+            alt="Logo"
+          ></img>
         </div>
         <ui className="mr-14">
-          <a className="w-[83px]  h-5 mr-10">Services</a>
-          <a className="w-[83px]  h-5 mr-10">About Us</a>
-          <a className="w-[83px]  h-5 mr-10">Contact Us</a>
+          <a className="w-[83px]  h-5 mr-10 hover:text-red-500 hover:underline hover:cursor-pointer decoration-red-500">
+            Services
+          </a>
+          <a className="w-[83px]  h-5 mr-10  hover:text-red-500 hover:underline hover:cursor-pointer decoration-red-500">
+            About Us
+          </a>
+          <a className="w-[83px]  h-5 mr-10  hover:text-red-500 hover:underline hover:cursor-pointer decoration-red-500">
+            Contact Us
+          </a>
         </ui>
         <div className="flex">
-          <img className="mr-10" src={Cart} alt="Cart"></img>
-          <img src={ProfileLogo} alt="ProfileLogo"></img>
+          <img
+            className="mr-10 hover:cursor-pointer"
+            src={Cart}
+            alt="Cart"
+          ></img>
+          <img
+            className="hover:cursor-pointer"
+            src={ProfileLogo}
+            alt="ProfileLogo"
+          ></img>
         </div>
       </div>
     </div>
