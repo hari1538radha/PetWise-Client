@@ -2,8 +2,8 @@ import './App.css';
 import Navbar from './component/Navbar/Navbar';
 function App() {
   return (
-    <div className="App">
-      hi
+    <div className="">
+      
       <Navbar/>
     </div>
   );
