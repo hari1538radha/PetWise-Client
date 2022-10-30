@@ -4,6 +4,8 @@ import Dog from "../../Images/Dog.svg";
 import Cat from "../../Images/Cat.svg";
 import Paws from "../../Images/Mask group.svg";
 import IntroContainerSub from "./introContainerSub";
+import TopCatagory from "./TopCatagory";
+
 const IntroContainer = () => {
   return (
     <div>
@@ -49,6 +51,7 @@ const IntroContainer = () => {
         </div>
       </div>
       <IntroContainerSub />
+      <TopCatagory/>
     </div>
   );
 };
