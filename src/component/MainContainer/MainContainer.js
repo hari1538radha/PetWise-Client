@@ -5,6 +5,13 @@ import Product1 from "../../Images/product1.svg";
 import Product2 from "../../Images/product2.svg";
 import Product3 from "../../Images/product3.svg";
 import Product4 from "../../Images/product4.svg";
+import curve from "../../Images/curve.svg";
+import cat from "../../Images/catmeow.svg";
+import cake from "../../Images/cake.svg";
+import brand1 from "../../Images/brand-1.svg";
+import brand4 from "../../Images/brand-2.svg";
+import brand2 from "../../Images/brand-4.svg";
+import brand3 from "../../Images/brand-5.svg";
 import { Rating } from "@mui/material";
 
 const MainContainer = () => {
@@ -83,6 +90,50 @@ const MainContainer = () => {
             />
             <p className="font-medium">Morbi vel arcu scelerisque</p>
             <h1 className="text-red-500 ">$85.00</h1>
+          </div>
+        </div>
+      </div>
+      <div className="relative">
+        <img src={curve}></img>
+        <img className="absolute bottom-0" src={cat}></img>
+        <div className="absolute top-[162px] right-[510px] flex">
+          <img src={cake}></img>
+          <div>
+            <p className="text-base font-normal ">Taste</p>
+            <h1 className="text-[32px] font-bold mt-[-5px] ">Guarantee</h1>
+          </div>
+        </div>
+        <div className="absolute top-[252px] right-[337px] w-[378px] h-[175px]">
+          <p className="font-bold text-2xl">
+            Taste it, love it or we’ll replace it… Guaranteed!
+          </p>
+          <p className="mt-7 text-lg font-normal">
+            At Petio, we believe your dog and cat will love their food so much
+            that if they don’t … we’ll help you find a replacement. That’s our
+            taste guarantee.
+          </p>
+          <button className="w-[201px] font-normal text-lg mt-10 bg-red-500 rounded-[110px] text-white shadow-2xl shadow-red-400   h-[52px]">
+            Find More
+          </button>
+        </div>
+      </div>
+      <div className="flex justify-center items-center mb-[103px] flex-col">
+        <div className="mt-[103px]  font-bold text-4xl flex ">
+          <h1 className="text-red-500 mr-2 mb-11">Popular</h1>
+          <h1>Brands</h1>
+        </div>
+        <div className="flex gap-8">
+          <div className=" w-64 border-[1px] rounded-lg flex justify-center items-center border-red-500">
+            <img src={brand1}></img>
+          </div>
+          <div className="w-64 border-[1px] rounded-lg flex justify-center items-center border-red-500">
+            <img src={brand2}></img>
+          </div>
+          <div className="w-64 border-[1px] rounded-lg flex justify-center items-center border-red-500">
+            <img src={brand3}></img>
+          </div>
+          <div className="w-64 border-[1px] rounded-lg flex justify-center items-center border-red-500">
+            <img src={brand4}></img>
           </div>
         </div>
       </div>
