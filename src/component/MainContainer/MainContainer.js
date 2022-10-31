@@ -12,6 +12,7 @@ import brand1 from "../../Images/brand-1.svg";
 import brand4 from "../../Images/brand-2.svg";
 import brand2 from "../../Images/brand-4.svg";
 import brand3 from "../../Images/brand-5.svg";
+import Logos from "../../Images/Logo.svg";
 import { Rating } from "@mui/material";
 
 const MainContainer = () => {
@@ -137,7 +138,42 @@ const MainContainer = () => {
           </div>
         </div>
       </div>
-    </div>
+      <div className="bg-red-500 flex justify-center items-center h-[488px]">
+        <div>
+          <img src={Logo}></img>
+        </div>
+      <div>
+        <h4>Corporate</h4>
+        <p>careers</p>
+        <p>About us</p>
+        <p>Contact us</p>
+        <p>FAQs</p>
+        <p>Vendors</p>
+      </div>
+      <div>
+        <h3>Information</h3>
+        <p>online Store</p>
+        <p>privacy Policy</p>
+        <p>Refund Policy</p>
+        <p>Shipping</p>
+        <p>policy</p>
+        </div>
+        <div>
+          <h2>Services</h2>
+          <p>grooming</p>
+          <p>postive Dog Training</p>
+          <p>Veterinary Services</p>
+        </div>
+        <div>
+          <h1>Newsletter</h1>
+          <p>
+            Be the first to know about our new collection launches, special
+            offers & other updates
+          </p>
+        </div>
+      </div>
+      </div>
+    
   );
 };
 
