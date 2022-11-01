@@ -13,6 +13,7 @@ import brand4 from "../../Images/brand-2.svg";
 import brand2 from "../../Images/brand-4.svg";
 import brand3 from "../../Images/brand-5.svg";
 import Logos from "../../Images/Logo.svg";
+import Payment from "../../Images/payment cards.svg"
 
 import { Rating } from "@mui/material";
 
@@ -139,42 +140,44 @@ const MainContainer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-red-500 flex justify-center items-center h-[488px]">
-        <div>
+      <div className="bg-red-500 flex justify-center items-center h-[488px] relative">
+        <div className="bg-white p-2 rounded-t mr-10">
           <img src={Logo}></img>
         </div>
-      <div>
-        <h4>Corporate</h4>
-        <p>careers</p>
-        <p>About us</p>
-        <p>Contact us</p>
-        <p>FAQs</p>
-        <p>Vendors</p>
-      </div>
-      <div>
-        <h3>Information</h3>
-        <p>online Store</p>
-        <p>privacy Policy</p>
-        <p>Refund Policy</p>
-        <p>Shipping</p>
-        <p>policy</p>
+        <div className="mr-10">
+          <h4 className="text-3xl font-bold mb-5">Corporate</h4>
+          <p className="mb-2">careers</p>
+          <p className="mb-2">About us</p>
+          <p className="mb-2">Contact us</p>
+          <p className="mb-2">FAQs</p>
+          <p className="mb-2">Vendors</p>
         </div>
-        <div>
-          <h2>Services</h2>
-          <p>grooming</p>
-          <p>postive Dog Training</p>
-          <p>Veterinary Services</p>
+        <div className="mr-10">
+          <h3 className="text-3xl font-bold">Information</h3>
+          <p className="mb-2">online Store</p>
+          <p className="mb-2">privacy Policy</p>
+          <p className="mb-2">Refund Policy</p>
+          <p className="mb-2">Shipping</p>
+          <p className="mb-2">policy</p>
         </div>
-        <div>
-          <h1>Newsletter</h1>
-          <p>
+        <div className="mr-10">
+          <h2 className="text-3xl font-bold ">Services</h2>
+          <p className="mb-2">grooming</p>
+          <p className="mb-2">postive Dog Training</p>
+          <p className="mb-2">Veterinary Services</p>
+        </div>
+        <div className="mr-10 w-[230px]">
+          <h1 className="text-3xl font-bold">Newsletter</h1>
+          <p className="mb-2">
             Be the first to know about our new collection launches, special
             offers & other updates
           </p>
         </div>
+        <div className="absolute z-50 bottom-10">
+          <img src={Payment}></img>
+        </div>
       </div>
-      </div>
-    
+    </div>
   );
 };
 
