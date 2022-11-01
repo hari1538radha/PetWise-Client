@@ -13,6 +13,7 @@ import brand4 from "../../Images/brand-2.svg";
 import brand2 from "../../Images/brand-4.svg";
 import brand3 from "../../Images/brand-5.svg";
 import Logos from "../../Images/Logo.svg";
+
 import { Rating } from "@mui/material";
 
 const MainContainer = () => {
